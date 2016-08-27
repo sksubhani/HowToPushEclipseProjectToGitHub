@@ -4,7 +4,7 @@ Steps to push the code from Eclipse project to Github repository.
 
 You can do this in different ways.. Here is one way:
 
-* I. Create repository in Github: *
+<b> I. Create repository in Github: </b>
 
 1) Go to https://github.com
 
@@ -30,7 +30,7 @@ Let us name the repository as "DemoRepo".
 Let us click on the "Clone or download" button. This will show the github link which can be copied and used in our next section. Here is the link I got from our github project created:
 https://github.com/sksubhani/DemoRepo.git
 
-* II. Create the project in Eclipse: *
+<b> II. Create the project in Eclipse: </b>
 
 1) In Eclipse IDE, create a project (For Ex: a Java project) and add your code if you want.
 
