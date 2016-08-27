@@ -40,30 +40,29 @@ For ex: The code is located in "/Users/subhani/Documents/workspace/JavaProject/g
 3) Run the below commands. A copy of the commands can also be found in below link:
 https://help.github.com/enterprise/11.10.340/user/articles/adding-an-existing-project-to-github-using-the-command-line/
 
- $ git init
- This will initialize local directory as git repository.
+ <b> $ git init </b>
+ <br> This will initialize local directory as git repository.
  
- $ git add .
- This will add all the files from this Eclipse project to Stage area in for git.
+ <b> $ git add . </b>
+ <br> This will add all the files from this Eclipse project to Stage area in for git.
  
- $ git commit -m 'Initial commit'
- This will commit the files which are in the stage area.
+ <b> $ git commit -m 'Initial commit' </b>
+ <br> This will commit the files which are in the stage area.
  
-$ git remote add origin << remote  repository url >>
-The "remote repository url" can be obtained from the "Clone or download" button on the repo which is mentioned above (https://github.com/sksubhani/DemoRepo.git)
+<b> $ git remote add origin << remote  repository url >> </b>
+<br> The "remote repository url" can be obtained from the "Clone or download" button on the repo which is mentioned above (https://github.com/sksubhani/DemoRepo.git)
 
-This will links / hooks the local repository to the remote repository mentioned in the url above. Going forward, whenever we push the code from this local repo, the code will be pushed to the remote repo mentioned at the url above.
+<br> This will links / hooks the local repository to the remote repository mentioned in the url above. Going forward, whenever we push the code from this local repo, the code will be pushed to the remote repo mentioned at the url above.
 
-$ git remote -v
-This will show the remote url we just added for confirmation.
+<b> $ git remote -v </b>
+<br> This will show the remote url we just added for confirmation.
 
-$ git pull
-This will pull any latest updats from remote repo to local repo. Execute this command before we push our local repo to remote repo.
+<b> $ git pull </b>
+<br> This will pull any latest updats from remote repo to local repo. Execute this command before we push our local repo to remote repo.
+<br> If the command opens a pop up to save the remote changes into local, save the changes and close the file.
 
-If the command opens a pop up to save the remote changes into local, save the changes and close the file.
+<b> $ git push origin master </b>
+<br> This will push the code from your local repo to remote repo. The "origin" is the name of the branch in your local repo. The "master" is the branch name in remote repo.
 
-$ git push origin master
-This will push the code from your local repo to remote repo. The "origin" is the name of the branch in your local repo. The "master" is the branch name in remote repo.
-
-With this, you should be able to set up your project in Github which is created in Eclipse.
-Note: The project name in the Eclipse need not have the same name in Github. You can use other git commands going forward to pull and push the changes from local and remote repositories.
+<br> With this, you should be able to set up your project in Github which is created in Eclipse.
+<br> <i><b> Note: </b> </i> The project name in the Eclipse need not have the same name in Github. You can use other git commands going forward to pull and push the changes from local and remote repositories.
